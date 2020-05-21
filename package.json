@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-mock-server",
+  "version": "1.0.0",
+  "description": "A mock nodejs server that would receive any request and print it out",
+  "keywords": [
+    "mock server"
+  ],
+  "author": {
+    "name": "Andy Lam",
+    "email": "cyanwingsbird@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "http-errors": "~1.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
